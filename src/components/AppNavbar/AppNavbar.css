@@ -1,0 +1,401 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
+.navbar {
+  color: #101031;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Hind";
+  font-weight: 600;
+  margin-right: 170px;
+  margin-left: 170px;
+}
+
+.main-content-left {
+  margin-left: 170px;
+  margin-top: 190px;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 50px 45px;
+}
+
+.navbar a {
+  color: #101031;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.navbar a:hover {
+  color: inherit;
+}
+
+.navbar a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #101031;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.clarity-logo {
+  height: 60px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-line {
+  width: 23px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 4px;
+}
+
+.contact-us {
+  background-color: #74fbdf; /* Green */
+  border: none;
+  color: #101031;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Hind";
+  font-weight: 600;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.contact-us:hover {
+  background-color: #101031;
+  color: white;
+}
+
+.main-text {
+  color: #101031;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.secondary-text {
+  color: #6f6f83;
+  font-size: 24px;
+  font-family: "Hind";
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.our-services-button {
+  background-color: #74fbdf; /* Green */
+  border: none;
+  color: #101031;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Hind";
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.our-services-button:hover {
+  background-color: #101031;
+  color: white;
+}
+
+.contact-us-link {
+  font-family: "Hind";
+  font-weight: 600;
+  font-size: 17px;
+  color: #101031;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.contact-us-link:hover {
+  color: inherit;
+}
+
+.button-links {
+  margin-top: 40px;
+}
+
+.button-links a {
+  display: inline-block;
+  position: relative;
+}
+
+.button-links a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #101031;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.button-links a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.middle-mouse-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 195px;
+}
+
+@media all and (max-width: 1360px) {
+  /* .navbar {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+  } */
+  .navbar {
+    background-color: #101031;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #101031;
+    display: block;
+    align-items: initial;
+    font-size: 30px;
+    font-family: "Hind";
+    font-weight: 600;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 100px;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  .nav-list .list-item {
+    display: flex;
+  }
+  .nav-list {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+  }
+  .navbar a {
+    color: white;
+
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    color: white;
+  }
+
+  .contact-us {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+
+  .logo-div {
+    width: 100%;
+  }
+  .clarity-logo {
+    display: none;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .main-content-left {
+    display: none;
+  }
+
+  .active-main-content {
+    display: block;
+    margin-left: 0px;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .middle-mouse-container {
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  .nav-active {
+    background-color: white;
+    padding-bottom: 0px;
+  }
+  .flex-centre {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  /* Main content */
+  .main-text {
+    color: #101031;
+    font-size: 38px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+  }
+
+  .secondary-text {
+    color: #6f6f83;
+    font-size: 24px;
+    font-family: "Hind";
+    font-weight: 400;
+    margin-top: 24px;
+  }
+
+  .our-services-button {
+    background-color: #74fbdf; /* Green */
+    border: none;
+    color: #101031;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Hind";
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .our-services-button:hover {
+    background-color: #101031;
+    color: white;
+  }
+
+  .contact-us-link {
+    font-family: "Hind";
+    font-weight: 600;
+    font-size: 15px;
+    color: #101031;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  .contact-us-link:hover {
+    color: inherit;
+  }
+
+  .button-links {
+    margin-top: 40px;
+  }
+}
+
+#nav-icon1,
+#nav-icon2,
+#nav-icon3,
+#nav-icon4 {
+  width: 60px;
+  height: 65px;
+  position: relative;
+
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon1 span,
+#nav-icon3 span,
+#nav-icon4 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 55%;
+  background: #101031;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon1 span:nth-child(2) {
+  top: 10px;
+}
+
+#nav-icon1 span:nth-child(3) {
+  top: 20px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  background: white;
+}
+
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+#nav-icon1.open span:nth-child(3) {
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  background: white;
+}

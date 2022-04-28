@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="377.996" height="432.64" viewBox="0 0 377.996 432.64">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_1" data-name="Path 1" d="M377.566,314.895l-76.1-43.959V171.6l76.1-43.974a10.878,10.878,0,0,0,0-18.831L200.206,6.462a14.444,14.444,0,0,0-12.415,0L10.432,108.8A10.878,10.878,0,0,0,5,118.211V324.325a10.908,10.908,0,0,0,5.432,9.416l177.36,102.468a10.849,10.849,0,0,0,5.432,1.492h1.552a10.893,10.893,0,0,0,5.432-1.492l177.36-102.393a10.893,10.893,0,0,0,0-18.846Zm-267.7-44.765V172.437L194,123.867l85.666,49.451v95.9L194,318.67Zm-21.8-96.991v96.32L26.756,304.9V137.774Zm262.309-54.927-60.373,34.872-84.367-48.69V34.65ZM182.36,34.65v70.639L98.8,153.531l-61.179-35.32ZM37.619,324.3,98.8,288.975l83.562,48.242v70.639Zm168.019,83.562V338.143l84.367-48.69L350.378,324.3Z" transform="translate(-5 -5.061)" fill="rgba(0,0,0,0)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="392.919" height="447.533" fill="rgba(0,0,0,0)"/>
+    </clipPath>
+  </defs>
+  <g id="BG_Graphic" data-name="BG Graphic" opacity="0.02" clip-path="url(#clip-path)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-7.461 -7.551)" clip-path="url(#clip-path-2)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="393.217" height="447.652" transform="translate(-0.209 -0.045)" fill="#101031"/>
+    </g>
+  </g>
+</svg>

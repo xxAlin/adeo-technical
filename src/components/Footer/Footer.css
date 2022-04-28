@@ -1,0 +1,73 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(220, 220, 220);
+  max-width: 1400px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.left-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.footer p {
+  margin-top: 20px;
+}
+
+.claritysolutions {
+  padding-right: 20px;
+  border-right: 1px solid rgb(220, 220, 220);
+}
+
+.websitebyadeo {
+  float: right;
+}
+
+.terms-link {
+  text-decoration: underline;
+}
+
+.terms-link a {
+  color: #101031;
+}
+
+@media all and (max-width: 1360px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(220, 220, 220);
+    max-width: 1400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+  }
+
+  .left-menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .right-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer p {
+    margin-top: 20px;
+  }
+
+  .claritysolutions {
+    padding-right: 20px;
+    border-right: 1px solid rgb(220, 220, 220);
+  }
+
+  .websitebyadeo {
+    float: none;
+  }
+}

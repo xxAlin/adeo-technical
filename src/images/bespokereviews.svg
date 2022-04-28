@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="98" viewBox="0 0 98 98">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_378" data-name="Rectangle 378" width="86" height="94" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Bespoke_Reviews_Icon" data-name="Bespoke Reviews Icon" transform="translate(-1232 -1287)">
+    <g id="Bespoke_Reviews_Icon-2" data-name="Bespoke Reviews Icon" transform="translate(1238 1289)">
+      <rect id="Rectangle_375" data-name="Rectangle 375" width="81.849" height="8.174" transform="translate(2.046 34.739)" fill="#74fbdf"/>
+      <rect id="Rectangle_376" data-name="Rectangle 376" width="20.462" height="16.348" transform="translate(22.508 42.913)" fill="#ec7d9f"/>
+      <rect id="Rectangle_377" data-name="Rectangle 377" width="20.462" height="16.348" transform="translate(63.433 75.609)" fill="#74fbdf"/>
+      <g id="Group_132" data-name="Group 132">
+        <g id="Group_131" data-name="Group 131" clip-path="url(#clip-path)">
+          <path id="Path_104" data-name="Path 104" d="M85.344,8.771a2.07,2.07,0,0,0-1.449-.6H69.571V2.043a2.046,2.046,0,0,0-4.092,0v6.13H20.462V2.043a2.046,2.046,0,0,0-4.092,0v6.13H2.046A2.039,2.039,0,0,0,0,10.217V91.957A2.046,2.046,0,0,0,2.046,94H83.895a2.046,2.046,0,0,0,2.046-2.043V10.217a2.064,2.064,0,0,0-.6-1.447M40.924,57.217H24.555V44.957h16.37Zm20.462,0H45.017V44.957h16.37Zm20.462,0H65.479V44.957h16.37Zm-61.387,0H4.092V44.957h16.37ZM4.092,61.3h16.37V73.565H4.092Zm20.462,0h16.37V73.565H24.555Zm16.37,28.609H24.555V77.652h16.37Zm4.092-12.261h16.37V89.913H45.017Zm0-16.348h16.37V73.565H45.017Zm20.462,0h16.37V73.565H65.479ZM16.37,12.261v6.13a2.046,2.046,0,0,0,4.092,0v-6.13H65.479v6.13a2.046,2.046,0,0,0,4.092,0v-6.13H81.849V40.87H4.092V12.261ZM4.092,77.652h16.37V89.913H4.092Zm61.387,0h16.37V89.913H65.479Z" fill="#101031"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_386" data-name="Rectangle 386" width="98" height="98" transform="translate(1232 1287)" fill="none"/>
+  </g>
+</svg>

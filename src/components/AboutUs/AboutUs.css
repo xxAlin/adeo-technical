@@ -1,0 +1,54 @@
+.description-div {
+  width: 525px;
+  margin-left: 290px;
+  margin-top: -150px;
+}
+
+.description-area {
+  font-size: 17px;
+  font-family: "Hind";
+  font-weight: 450;
+  color: #6f6f83;
+}
+
+.title-area {
+  font-size: 38px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.about-us-image {
+  width: 750px;
+}
+
+@media all and (max-width: 1360px) {
+  .description-div {
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .description-area {
+    font-size: 17px;
+    font-family: "Hind";
+    font-weight: 450;
+    color: #6f6f83;
+  }
+
+  .title-area {
+    font-size: 38px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .about-us-image {
+    max-width: 400px;
+  }
+  .about-us-image-div {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+  }
+}

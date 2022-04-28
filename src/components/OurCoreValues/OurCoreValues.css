@@ -1,0 +1,86 @@
+.core-values-graphic {
+  width: 410px;
+  margin-top: 151px;
+  margin-left: 300px;
+}
+
+.core-values-accordion {
+  margin-top: 130px;
+  margin-left: 210px;
+}
+.core-values-title {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 38px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.site-collapse-custom-panel {
+  font-size: 30px;
+  color: white;
+}
+
+.site-collapse-custom-panel p {
+  color: white;
+  font-size: 18px;
+  font-family: "Hind";
+  font-weight: 400;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  color: white;
+  font-family: "Hind";
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 0px;
+}
+
+.ant-collapse-ghost
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box {
+  width: 700px;
+}
+
+@media all and (max-width: 1360px) {
+  .core-values-accordion {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  .core-values-title {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 37px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .site-collapse-custom-panel {
+    font-size: 29px;
+    color: white;
+  }
+
+  .site-collapse-custom-panel p {
+    color: white;
+    font-size: 17px;
+    font-family: "Hind";
+    font-weight: 400;
+  }
+
+  .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    color: white;
+    font-family: "Hind";
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 0px;
+  }
+
+  .ant-collapse-ghost
+    > .ant-collapse-item
+    > .ant-collapse-content
+    > .ant-collapse-content-box {
+    width: 300px;
+  }
+}

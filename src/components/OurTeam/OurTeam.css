@@ -1,0 +1,158 @@
+.our-team-title {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+}
+
+.staff-card {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+}
+
+.staff-individual {
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.staff-individual:nth-last-child(-n + 4) {
+  /* Add style rules */
+  border-bottom: none;
+}
+
+.staff-individual:nth-child(-n + 4) {
+  border-top: 1px solid rgb(220, 220, 220);
+}
+
+.ant-card-meta-title {
+  font-family: "Hind";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ant-card-meta-description {
+  font-family: "Hind";
+  font-size: 12px;
+  font-weight: 400;
+  color: #6f6f83;
+}
+
+.each-card {
+  width: 240px;
+}
+
+.modal-container {
+  display: flex;
+  align-items: top;
+}
+.modal-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.modal-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkedin {
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.modal-profile {
+  width: 200px;
+  height: 200px;
+}
+.linkedin span {
+  font-family: "Hind";
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 7px;
+}
+
+.staff-name {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 38px;
+}
+
+.staff-role {
+  font-family: "Hind";
+  font-weight: 400;
+  font-size: 14px;
+  color: #6f6f83;
+  padding-bottom: 30px;
+}
+
+.staff-desc {
+  font-family: "Hind";
+  font-weight: 400;
+  font-size: 18px;
+  color: #6f6f83;
+}
+
+@media all and (max-width: 1360px) {
+  .our-team-title {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .staff-card {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+  }
+
+  .staff-individual {
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+  .staff-individual:nth-last-child(-n + 4) {
+    /* Add style rules */
+    border-bottom: none;
+  }
+
+  .staff-individual:nth-child(-n + 4) {
+    border-top: 1px solid rgb(220, 220, 220);
+  }
+
+  .ant-card-meta-title {
+    font-family: "Hind";
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .ant-card-meta-description {
+    font-family: "Hind";
+    font-size: 12px;
+    font-weight: 400;
+    color: #6f6f83;
+  }
+
+  .each-card {
+    width: 170px;
+  }
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

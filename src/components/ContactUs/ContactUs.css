@@ -1,0 +1,208 @@
+.contact-us-div {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.brand {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 38px;
+  letter-spacing: 0.1em;
+}
+
+.brand span {
+  color: #101031;
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+
+.wrapper {
+  box-shadow: 0 0 20px 0 #00141929;
+}
+
+/* ------------------- */
+/* COMPANY INFORMATION */
+/* ------------------- */
+
+.company-info {
+  background: #101031;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  color: white;
+  font-family: "Hind";
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.company-info ul li {
+  display: grid;
+  grid-template-columns: 30px 200px;
+}
+
+.company-info-title {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 22px;
+  color: white;
+}
+
+.company-info-desc {
+  font-family: "Hind";
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6c0;
+}
+
+/* ------- */
+/* CONTACT */
+/* ------- */
+
+.contact {
+  background: white;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.contact form label {
+  font-family: "Hind";
+  font-weight: 400;
+  font-size: 14px;
+  color: #101031;
+}
+
+/* ---- */
+/* FORM */
+/* ---- */
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0;
+}
+
+.contact form .full {
+  grid-column: 1 / 3;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 1em;
+  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+}
+
+.contact form input:hover,
+.contact form textarea:hover {
+  border: 1px solid #ec7d9f;
+  transition: all ease 0.5s;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none !important;
+  border: 1px solid #ec7d9f;
+}
+
+.contact form button {
+  font-family: "Hind";
+  font-weight: 400;
+  color: #101031;
+  float: right;
+  padding: 12px 23px 12px 23px;
+  border-radius: 10px;
+  background: #74fbdf;
+  border: 0;
+  color: #101031;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form button:hover {
+  background: #101031;
+  color: #ffffff;
+  outline: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.wrapper > * {
+  padding: 2em;
+}
+
+.company-info {
+  border-radius: 4px 0 0 4px;
+}
+
+.contact {
+  border-radius: 0 4px 4px 0;
+}
+
+.company-info h3,
+.company-info ul {
+  text-align: left;
+}
+
+/* ------------- */
+/* MEDIA QUERIES */
+/* ------------- */
+
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper > * {
+    padding: 2em;
+  }
+
+  .company-info {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .contact {
+    border-radius: 0 4px 4px 0;
+  }
+
+  .company-info h3,
+  .company-info ul {
+    text-align: left;
+  }
+  .contact form button {
+    float: none;
+    width: 100%;
+  }
+}

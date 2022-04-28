@@ -1,0 +1,9 @@
+.mouse-image {
+  transition: all ease 0.3s;
+}
+
+.mouse-image:hover {
+  transform: translate(0, -8px);
+  filter: invert(69%) sepia(42%) saturate(852%) hue-rotate(297deg)
+    brightness(94%) contrast(97%);
+}
